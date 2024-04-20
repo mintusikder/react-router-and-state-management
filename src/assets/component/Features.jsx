@@ -1,13 +1,15 @@
 import PropTypes from 'prop-types';
 
-const Features = ({features}) => {
+const Features = ({ feature }) => {
     return (
         <div>
-            <h2>{}</h2>
+            <p>{feature}</p>
         </div>
     );
 };
-Features.PropTypes ={
-    features : PropTypes.string
-}
+
+Features.propTypes = {
+    feature: PropTypes.string
+};
+
 export default Features;

@@ -41,12 +41,14 @@ const PriceOption = () => {
 
         <div>
              <h3>Best Price</h3>
-          {
+      
+        {
             gyms.map(option => <Price
             key={option.id}
             option={option}
             ></Price>)
           }
+      
         </div>
     );
 };
