@@ -5,14 +5,18 @@ import "./App.css";
 import DasyNav from "./assets/component/DasyNav";
 import Line from "./assets/component/Line";
 import PriceOption from "./assets/component/PriceOption";
+import LineChart from "./assets/component/LineChart";
+import Chart from "./assets/component/Chart";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-    <Line></Line>
+    {/* <LineChart></LineChart> */}
+    <Line ></Line>
     <DasyNav></DasyNav>
+        <Chart></Chart>
     <PriceOption></PriceOption>
       <div>
         <div className="stats shadow">
