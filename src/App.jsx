@@ -2,12 +2,18 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import DasyNav from "./assets/component/DasyNav";
+import Line from "./assets/component/Line";
+import PriceOption from "./assets/component/PriceOption";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+    <Line></Line>
+    <DasyNav></DasyNav>
+    <PriceOption></PriceOption>
       <div>
         <div className="stats shadow">
           <div className="stat">
